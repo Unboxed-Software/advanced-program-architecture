@@ -1,0 +1,24 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+architecture = "J2PcgrJuD5H2iEM1RrwNtr2jVYP5MxuEjWk8V9nhZxUB"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/coach/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[test.validator]
+url="https://api.mainnet-beta.solana.com"
+
+[test]
+startup_wait = 3000
+
+[[test.validator.clone]] # Community Wallet
+address = "JD5C5Bsp3q9jeC5S57QuSCDDfpeKzXvRkfPB3Td6x3Wh"
