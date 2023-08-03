@@ -28,8 +28,8 @@ describe("Concept Box", () => {
 
     await program.provider.connection.confirmTransaction(txHash);
 
-    const account = await program.account.someBigDataStruct.fetch(someBigData.publicKey);
     // Print out if you'd like
+    // const account = await program.account.someBigDataStruct.fetch(someBigData.publicKey);
 
     printLogInstruction('box', txHash);
 
