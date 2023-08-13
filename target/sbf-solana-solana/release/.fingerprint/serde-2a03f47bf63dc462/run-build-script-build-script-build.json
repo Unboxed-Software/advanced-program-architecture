@@ -1,0 +1,1 @@
+{"rustc":14420554242111463434,"features":"","target":0,"profile":0,"path":0,"deps":[[11235548405403946299,"build_script_build",false,3613279827718414225]],"local":[{"RerunIfChanged":{"output":"sbf-solana-solana/release/build/serde-2a03f47bf63dc462/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
