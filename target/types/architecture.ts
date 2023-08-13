@@ -936,23 +936,11 @@ export type Architecture = {
             "type": "u8"
           },
           {
-            "name": "apPerPlayerCreation",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterSpawn",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterAttack",
-            "type": "u64"
-          },
-          {
             "name": "forFutureUse",
             "type": {
               "array": [
                 "u64",
-                13
+                16
               ]
             }
           }
@@ -1930,23 +1918,11 @@ export const IDL: Architecture = {
             "type": "u8"
           },
           {
-            "name": "apPerPlayerCreation",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterSpawn",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterAttack",
-            "type": "u64"
-          },
-          {
             "name": "forFutureUse",
             "type": {
               "array": [
                 "u64",
-                13
+                16
               ]
             }
           }

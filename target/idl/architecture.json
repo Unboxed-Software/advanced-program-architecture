@@ -936,23 +936,11 @@
             "type": "u8"
           },
           {
-            "name": "apPerPlayerCreation",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterSpawn",
-            "type": "u64"
-          },
-          {
-            "name": "apPerMonsterAttack",
-            "type": "u64"
-          },
-          {
             "name": "forFutureUse",
             "type": {
               "array": [
                 "u64",
-                13
+                16
               ]
             }
           }
@@ -989,5 +977,8 @@
         ]
       }
     }
-  ]
+  ],
+  "metadata": {
+    "address": "J2PcgrJuD5H2iEM1RrwNtr2jVYP5MxuEjWk8V9nhZxUB"
+  }
 }
