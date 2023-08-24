@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/coach/Documents/Work/Unboxed/Solana-Advance-Repos/architecture/target/debug/build/typenum-87d94735ef3cc08b/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/coach/Documents/Work/Unboxed/Solana-Advance-Repos/architecture/target/debug/build/typenum-87d94735ef3cc08b/out/op.rs
