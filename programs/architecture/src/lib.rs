@@ -3,14 +3,14 @@ use anchor_lang::solana_program::log::sol_log_compute_units;
 
 declare_id!("J2PcgrJuD5H2iEM1RrwNtr2jVYP5MxuEjWk8V9nhZxUB");
 
-use concepts::concept_sizes::*;
-use concepts::concept_box::*;
-use concepts::concept_zero_copy::*;
-use concepts::concept_data_optimization::*;
-use concepts::concept_for_future_use::*;
-use concepts::concept_data_order::*;
-use concepts::concept_indexing::*;
-use concepts::concept_shared_account::*;
+use concepts::sizes::*;
+use concepts::_box::*;
+use concepts::zero_copy::*;
+use concepts::data_optimization::*;
+use concepts::for_future_use::*;
+use concepts::data_order::*;
+use concepts::indexing::*;
+use concepts::shared_account::*;
 use tutorial::rpg::*;
 
 mod concepts;
